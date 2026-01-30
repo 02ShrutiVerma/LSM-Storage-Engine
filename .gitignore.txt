@@ -1,0 +1,12 @@
+# Ignore compiled Java bytecode
+*.class
+
+# Ignore database storage files
+*.txt
+database_log
+sstable_*
+
+# Ignore IntelliJ's private settings
+.idea/
+*.iml
+out/s
