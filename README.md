@@ -17,11 +17,12 @@ A high-performance, persistent Key-Value store implemented in Java. This project
 ```text
 MySimpleDB/
 ├── src/
-│   ├── MemTable.java          # Core logic, Concurrency control, and Flush management
-│   ├── WAL.java               # Write-Ahead Log for crash recovery
-│   ├── SSTable.java           # Disk persistence and tiered searching
-│   ├── DatabaseServer.java    # Multi-threaded TCP server
-│   └── DatabaseClient.java    # Test client for CRUD lifecycle
-├── .gitignore                 # Excludes build artifacts and local data
-└── README.md                  # System documentation
+│   ├── MemTable.java         
+│   ├── WAL.java              
+│   ├── SSTable.java           
+│   ├── DatabaseServer.java    
+│   └── DatabaseClient.java   
+├── .gitignore                 
+└── README.md                  
+
 
